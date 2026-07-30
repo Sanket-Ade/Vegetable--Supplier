@@ -114,3 +114,11 @@
 // };
 
 // export default MyCrops;
+
+export default function MyCropsPage() {
+  return (
+    <div>
+      <h1>My Crops</h1>
+    </div>
+  );
+}
