@@ -19,8 +19,8 @@
 // }
 
 import dbConnect from '@/lib/dbConnect';
-import Requirement from '@/Models/Requirement';
-import User from '@/Models/User'; // Required for .populate()
+import Requirement from '@/models/Requirement';
+import User from '@/models/User'; // Required for .populate()
 import { NextResponse } from 'next/server';
 
 export async function GET(req) {

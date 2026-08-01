@@ -66,7 +66,7 @@
 //     }
 // }
 import dbConnect from '@/lib/dbConnect';
-import User from '@/Models/User';
+import User from '@/models/User';
 import bcrypt from 'bcryptjs';
 
 export async function POST(req) {

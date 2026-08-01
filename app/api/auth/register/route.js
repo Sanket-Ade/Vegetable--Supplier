@@ -40,7 +40,7 @@
 
 
 import dbConnect from '@/lib/dbConnect';
-import User from '@/Models/User';
+import User from '@/models/User';
 import { NextResponse } from 'next/server';
 import bcrypt from 'bcryptjs';
 

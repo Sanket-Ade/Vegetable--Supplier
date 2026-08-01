@@ -1,5 +1,5 @@
       import dbConnect from '@/lib/dbConnect';
-import Product from '@/Models/Product';
+import Product from '@/models/Product';
 import { NextResponse } from 'next/server';
 
 export async function GET(req) {
